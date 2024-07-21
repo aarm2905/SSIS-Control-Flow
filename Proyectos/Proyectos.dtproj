@@ -26,19 +26,53 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-1GJ048R</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWDc+Q998b0quRxewxfLCjQAAAAACAAAAAAAQZgAAAAEAACAAAACDLNCsH44pZz/CFiRLoom+BIrGPw8CsRqqddYhLq5fiwAAAAAOgAAAAAIAACAAAABnuZ1HUs/ntMSRyIt1JzdScReXcL0hhHStLjIoCEcooJAAAABPDJkhPPeIaxrtStVc2+4MZ6mIXOR5Q0qusL/EFOAcoE+POKPxFe+NH8Z5SHzKs6hu/e23uCeQZPlkjrweB+G+IaXajWuue+lsZ4ehJV4Zj+J3tA2IpwM7MoThpgH1JdfcuVQCuMbhd2Uxl2auxchjkJiK9CZDrETSkKc1lKH5q92qszovQJ9TAXt8DLjq0xJAAAAAHlPyHricRkyFD2an7Hz1w6dUh0Wvuqe2se+MSpthUvGpBzSMgnRV5peDMvrFjg2uGOAqbl9+YoR8cWsG6FI8Sg==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWDc+Q998b0quRxewxfLCjQAAAAACAAAAAAAQZgAAAAEAACAAAAAnAgBixTIuGaUVG77WRjsyngzRKpii6FL2d0/VNfTr5gAAAAAOgAAAAAIAACAAAADBm+E4ETjxRtCTKmgttcBpwC+u07+RUPT4X38tpQVe5pAAAACR46IYmzh/ek2iDbZ6ahRaBpew7XHSUUsfl9xYWoPtYoJQPRSBJZ6jv2khbig7Jc6aZ0KtVxDSF0QzztXHnmCSgRi+o07+0gyC3xW+Z9GYJUbcjxOc1hOG39XryCPCTPkMBI1dtxl6ATSz2JqMEVwGd8k+u5EkBSKE2D3t01fP9aBMAv0CWSSuvAw+aBXUN01AAAAAmeFD/dlAHRWZai6Uzgn9tanEIEyIRcME3/UhdfEEmHGKmv0Y+vpND+7roulaFEl00hey2KawVNoayk1MLHT0lg==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
-          <SSIS:Package SSIS:Name="Tarea Flujo de datos.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="Tarea de Expresion.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="Tarea Ejecutar Proceso.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="Tarea Flujo de datos 1.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers />
         <SSIS:DeploymentInfo>
           <SSIS:ProjectConnectionParameters />
           <SSIS:PackageInfo>
-            <SSIS:PackageMetaData SSIS:Name="Tarea Flujo de datos.dtsx">
+            <SSIS:PackageMetaData SSIS:Name="Tarea de Expresion.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{045C7CA3-C92D-4828-8CAE-0323698F2AA6}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">3</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{7ED6088D-8360-4301-9F70-3354EC8A181C}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="Tarea Ejecutar Proceso.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{67744BA4-2B80-435A-9E03-C57B32D13A51}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">6</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{02A03E65-2A5A-494D-A4A1-9E752BCF1125}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="Tarea Flujo de datos 1.dtsx">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">{283A11BB-03A8-4C42-BF0E-18FE2F9CFFE9}</SSIS:Property>
                 <SSIS:Property SSIS:Name="Name">Tarea Flujo de datos</SSIS:Property>
@@ -349,6 +383,8 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">
+                    </SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -383,40 +419,6 @@
                   </SSIS:Properties>
                 </SSIS:Parameter>
               </SSIS:Parameters>
-            </SSIS:PackageMetaData>
-            <SSIS:PackageMetaData SSIS:Name="Tarea de Expresion.dtsx">
-              <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">{045C7CA3-C92D-4828-8CAE-0323698F2AA6}</SSIS:Property>
-                <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">3</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionComments">
-                </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{7ED6088D-8360-4301-9F70-3354EC8A181C}</SSIS:Property>
-                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
-                <SSIS:Property SSIS:Name="Description">
-                </SSIS:Property>
-                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
-              </SSIS:Properties>
-              <SSIS:Parameters />
-            </SSIS:PackageMetaData>
-            <SSIS:PackageMetaData SSIS:Name="Tarea Ejecutar Proceso.dtsx">
-              <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">{67744BA4-2B80-435A-9E03-C57B32D13A51}</SSIS:Property>
-                <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">2</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionComments">
-                </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{3A86E6FD-864F-4D25-954E-C93597DA21C9}</SSIS:Property>
-                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
-                <SSIS:Property SSIS:Name="Description">
-                </SSIS:Property>
-                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
-              </SSIS:Properties>
-              <SSIS:Parameters />
             </SSIS:PackageMetaData>
           </SSIS:PackageInfo>
         </SSIS:DeploymentInfo>
