@@ -5,14 +5,14 @@
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="DESKTOP-1GJ048R"
   DTS:CreatorName="DESKTOP-1GJ048R\ASUS"
-  DTS:DTSID="{283A11BB-03A8-4C42-BF0E-18FE2F9CFFE9}"
+  DTS:DTSID="{A19561AD-1351-4DBA-AC51-5FCB183B954B}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="16.0.5556.0"
   DTS:LocaleID="3082"
   DTS:ObjectName="Tarea Flujo de datos"
   DTS:PackageType="5"
-  DTS:VersionBuild="7"
-  DTS:VersionGUID="{2E95A064-A9E3-47C0-B7BE-527316D4621D}">
+  DTS:VersionBuild="8"
+  DTS:VersionGUID="{A9001BF2-CA85-4BBA-B153-E5B38F3C38C9}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
